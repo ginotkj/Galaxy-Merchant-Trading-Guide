@@ -1,4 +1,4 @@
-package main.com.galaxymerchant;
+package main.com.logic;
 
 import java.util.Arrays;
 import java.util.Collections;
@@ -14,8 +14,8 @@ public class ConversionRules {
 
     private static final Character[] NonRepeatingRomanNumerals = {'D', 'L', 'V'};
     private static final Character[] RepeatingRomanNumerals = {'I', 'V', 'X', 'M'};
+    
     private static Map<Character, Integer> RepeatableLiteralsCount = getRepeatableLiteralsCount();
-
     private static Map<Character, Integer> getRepeatableLiteralsCount() {
         Map<Character, Integer> map = new HashMap<Character, Integer>() {
             {
@@ -29,7 +29,6 @@ public class ConversionRules {
     }
 
     private static Map<Character, Integer> NonRepeatableLiteralsCount = getNonRepeatableLiteralsCount();
-
     private static Map<Character, Integer> getNonRepeatableLiteralsCount() {
         Map<Character, Integer> map = new HashMap<Character, Integer>() {
             {
