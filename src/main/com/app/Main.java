@@ -3,13 +3,17 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package galaxy.merchant.trading.guide;
+package main.com.app;
+
+
+
+
 
 /**
  *
  * @author gino
  */
-public class GalaxyMerchantTradingGuide {
+public class Main {
 
     /**
      * @param args the command line arguments
