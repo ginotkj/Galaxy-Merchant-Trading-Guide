@@ -4,7 +4,7 @@ package main.com.logic;
  *
  * @author gino.tkj@gmail.com
  */
-public class RomanceToDecimal extends ConversionRules {
+public class RomanToDecimal extends ConversionRules {
 
     /**
      * Method to convert roman numeric to it's equivalent decimal
